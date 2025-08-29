@@ -1,0 +1,41 @@
+name: flutter_file_sharing_app
+description: A Flutter application for sharing files and managing access to folders.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  http: ^1.5.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  flutter_bloc: ^8.1.4
+  uuid: ^4.4.0
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  file_picker: ^8.0.0
+  multicast_dns: ^0.3.2
+  pointycastle: ^3.7.3
+  asn1lib: ^1.5.0
+  basic_utils: ^5.7.0
+  device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.10
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/en.json
